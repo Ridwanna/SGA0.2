@@ -1,1 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Project 2</title>
+	<style type="text/css">
+		body{
+			text-align: center;
+		}
+		footer{
+			text-align: right;
+			height: 30px;	
+			background-color: #333;
+			color: white;
+		}
+		ol {
+			list-style-type: none;
+			margin: 0;
+		    padding: 0;
+		    /*display: inline;*/
+		 /*   overflow: hidden;*/
+		}
+		li a {
+		    padding: 8px;
+			display: inline;
+		}
 
+		ul {
+		    list-style-type: none;
+		    margin: 0;
+		    padding: 0;
+		    overflow: hidden;
+		    background-color: #333;
+		}
+		ul li a {
+		    display: block;
+		    color: white;
+		    text-align: center;
+		    padding: 14px 16px;
+		    text-decoration: none;
+		    float: left;
+		    position: static;
+		}
+		ul li a:hover {
+    		background-color: #111;
+    	}
+		#search{
+			width: 40%;
+			height: 30px;
+		}
+		span{
+			color: red
+		}
+		input[type=button] {
+		    /*background-color: #4CAF50;*/
+		    border: none;
+		    color: white;
+		    padding: 10px 20px;
+		    text-decoration: none;
+		    margin: 6px 3px;
+		    cursor: pointer;
+		}
+		input[type=button]:hover {
+   			 background-color: #45a049;
+   		}
+   		a{
+   			text-decoration: none;
+   		}
+	</style>
+</head>
+<body>
+	<header>
+		<ul>
+			<li><a href="#">Images</a></li>
+			<li><a href="#">Videos</a></li>
+			<li><a href="#">Map</a></li>
+			<li><a href="#">All..</a></li>
+			<li style="float:right"><a href="#">Sign In</a></li>
+		</ul>
+	</header>
+
+	<section>
+		<div>
+			<a href="http://google.com"><img src="../img/google1.jpg" alt="content image"></a>	
+		</div>
+		<div>
+			<p>
+				<input type="text area" name="search area" id="search">
+			</p>
+			<p>
+				<input type="button" value="Google Search">
+				<input type="button" value="I'm Feeling Lucky">
+			</p>
+			<p>Google offered in: 
+					<ol>
+						<li><a href="#">Hausa</a></li>
+						<li><a href="#">Igbo</a></li>
+						<li><a href="#">Ede Yoruba</a></li> 
+						<li><a href="#">Pidgin</a></li>
+					</ol>
+			</p>
+				<ol>
+					<li><a href="#">Search</a></li>
+					<li><a href="#">Settings</a></li>
+					<li><a href="#">- Privacy</a></li>
+					<li><a href="#">- Terms</a></li>
+				</ol>
+			</p>
+		</div>
+	</section>
+	<footer>
+		<p>&copy; 2018. Coding is Awesome</p>
+	</footer>
+</body>
+</html>
